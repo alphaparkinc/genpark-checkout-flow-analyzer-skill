@@ -1,0 +1,40 @@
+{
+  "name": "checkout-flow-analyzer-skill",
+  "version": "1.0.0",
+  "description": "Analyze multi-stage checkout funnel steps to pinpoint drop-offs and suggest optimization actions.",
+  "author": "alphaparkinc",
+  "category": "analytics",
+  "tags": [
+    "checkout",
+    "funnel",
+    "conversion",
+    "analytics",
+    "drop-off"
+  ],
+  "inputs": {
+    "funnel_steps": {
+      "type": "object",
+      "description": "Users reaching each stage: {cart_views, contact_info, shipping_method, payment_method, purchase}."
+    }
+  },
+  "outputs": {
+    "stage_conversion_rates": {
+      "type": "object",
+      "description": "Conversion rates between successive stages."
+    },
+    "overall_conversion_rate": {
+      "type": "number",
+      "description": "Overall funnel conversion rate percentage."
+    },
+    "bottleneck_stage": {
+      "type": "string",
+      "description": "Funnel stage with the highest drop-off rate."
+    },
+    "recommendations": {
+      "type": "array",
+      "description": "Actionable fixes for the bottleneck."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}

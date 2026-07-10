@@ -1,8 +1,8 @@
 {
   "name": "checkout-flow-analyzer-skill",
   "version": "1.0.0",
-  "description": "Analyze multi-stage checkout funnel steps to pinpoint drop-offs and suggest optimization actions.",
-  "author": "alphaparkinc",
+  "description": "GenPark AI Agent Skill - Analyze multi-stage checkout funnel steps to pinpoint drop-offs and suggest optimization actions.",
+  "author": "genpark",
   "category": "analytics",
   "tags": [
     "checkout",

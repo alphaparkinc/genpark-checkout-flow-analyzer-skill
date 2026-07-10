@@ -1,4 +1,4 @@
-# checkout-flow-analyzer-skill
+# genpark-checkout-flow-analyzer-skill
 
 > **GenPark AI Agent Skill** -- Checkout funnel metrics and UX analyzer.
 
